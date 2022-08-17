@@ -42,6 +42,7 @@ body {
     margin-left: 350px;
     margin-top: 150px;
     margin-right: 350px;
+    justify-content: center;
 }
 
 .left-side {
@@ -202,4 +203,13 @@ body {
     color: white;
     background-color: #3882f6;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
