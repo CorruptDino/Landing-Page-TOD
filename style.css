@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0px;
+}
+
+
+.header {
+    display: flex;   
+}
+
+.headerbackground {
+    background-color: #1F2937;
+}
+
+.logo{
+    margin-left: 350px;
+    font-size: 24px;
+    font-size: 24px;
+    color: #f9faf8;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding-inline-start: 0;
+    margin: 0;
+    margin-left: auto;
+    padding-right: 350px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 20px;
+}
+
+.Hero{
+    display: flex;
+    margin-left: 350px;
+    margin-top: 150px;
+    margin-right: 350px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+#bigger{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.Hero .text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 20px;
+}
+
+.image-placeholder {
+    background-color: #6d747e;
+    display: flex;
+    height: 250px;
+    margin: 5px;
+    width: 700px;
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.image-placeholder > .placeholder{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    color: #e9edee;
+}
+
+.Hero button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none; 
+    font-size: 17px;
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+    margin-top: 20px;
+}
