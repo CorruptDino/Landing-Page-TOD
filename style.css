@@ -92,3 +92,48 @@ body {
     font-weight: bold;
     margin-top: 20px;
 }
+
+.informationheader {
+    margin-bottom: 100px;
+}
+
+.informationheader #text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 40px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #3882f6;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.boxcontainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+    
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.info .text {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #535d6a;
+}
+
