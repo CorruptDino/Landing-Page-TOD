@@ -168,3 +168,38 @@ body {
     justify-content: flex-end;
     margin-top: 10px;
 }
+
+.infobox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px;
+    margin: 100px 150px;
+    border-radius: 8px;
+    height: 80px;
+}
+
+.infobox #text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.infobox .textbold {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.infobox button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid; 
+    border-width: 2px;
+    font-size: 17px;
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+}
